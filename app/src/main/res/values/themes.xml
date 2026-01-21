@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- App XML theme (used only to start Compose) -->
+    <style name="Theme.PregnancyTracker"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Optional -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+    </style>
+
+</resources>
